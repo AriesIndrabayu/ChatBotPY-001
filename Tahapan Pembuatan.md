@@ -35,5 +35,3 @@ pip install tensorflow flask twilio numpy pandas nltk
 ```sh
 pip list
 ```
-
-Setelah ini berhasil, kita bisa lanjut ke **menyiapkan dataset dan model chatbot**. Gimana, sudah siap lanjut? 🚀
