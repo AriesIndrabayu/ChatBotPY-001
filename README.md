@@ -14,15 +14,20 @@ Chatbot Virtual Pintar ini adalah chatbot berbasis **Python** yang memiliki **me
 
 ```
 Chatbot-Virtual-Pintar/
-│-- dataset.json            # Dataset intents untuk chatbot
-│-- 1_setup_environment.sh  # Setup environment dan install library
-│-- 2_data_preparation.py   # Menyiapkan dan membersihkan data
-│-- 3_train_model.py        # Melatih model chatbot menggunakan TensorFlow
-│-- 4_chatbot_response.py   # Mengelola respons chatbot
-│-- 5_api_server.py         # Menyediakan API REST untuk chatbot
-│-- 6_main.py               # File utama untuk menjalankan chatbot
-│-- 7_whatsapp_bot.py       # Integrasi chatbot dengan WhatsApp
-│-- models/chatbot_model.h5 # Model yang sudah dilatih
+│-- dataset.json              # Dataset chatbot
+│-- 1_setup_environment.sh    # Setup environment
+│-- 2_data_preparation.py     # Menyiapkan data
+│-- 3_train_model.py          # Melatih model chatbot
+│-- 4_chatbot_response.py     # Mengatur respons chatbot
+│-- 5_api_server.py           # REST API untuk chatbot
+│-- 6_main.py                 # File utama chatbot
+│-- 7_whatsapp_bot.py         # Integrasi dengan WhatsApp
+│-- models/                   # Folder untuk model yang sudah dilatih
+│-- chatbot-env/               # Virtual environment (JANGAN simpan file proyek di sini)
+│   ├── bin/
+│   ├── lib/
+│   ├── etc...
+
 ```
 
 ## 🔧 Instalasi dan Konfigurasi
@@ -101,10 +106,6 @@ API berjalan di `http://localhost:5000`.
 | -------- | ------ | --------------------------- |
 | `/chat`  | POST   | Mengirim pesan ke chatbot   |
 | `/train` | GET    | Melatih ulang model chatbot |
-
-## 📜 Lisensi
-
-Proyek ini menggunakan lisensi **MIT**. Silakan digunakan dan dikembangkan lebih lanjut.
 
 ---
 
