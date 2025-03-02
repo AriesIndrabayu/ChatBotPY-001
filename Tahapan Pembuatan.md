@@ -11,6 +11,10 @@ python -m venv chatbot-env
 
 Lalu aktifkan environment:
 
+- **Bash:**
+  ```bash
+  source chatbot-env/Scripts/activate
+  ```
 - **Windows:**
   ```sh
   chatbot-env\Scripts\activate
