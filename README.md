@@ -108,4 +108,4 @@ Proyek ini menggunakan lisensi **MIT**. Silakan digunakan dan dikembangkan lebih
 
 ---
 
-🎯 **Dikembangkan oleh [Nama Anda]**
+🎯 **Dikembangkan oleh Aries Indrabayu**
